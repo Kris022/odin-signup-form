@@ -1,6 +1,4 @@
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -21,16 +19,22 @@ main {
 .right {
   display: flex;
   flex-direction: column;
+  background-color: #fafafa;
+  width: 65vw;
 }
 
 .first {
-  height: 40vh;
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .second {
-  height: 30vh;
+  height: 33vh;
+  background-color: white;
 }
 
 .thrid {
-  height: 30vh;
+  height: 33vh;
 }
