@@ -1,31 +1,36 @@
-* {
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-body {
-  background-color: antiquewhite;
-}
-
 main {
+  display: flex;
+  width: 100vw;
   height: 100vh;
 }
 
-.left-container {
-    width: auto;
-    border: 1px solid red;
+.left {
+  background-image: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 35vw;
 }
 
-.left-container img {
-  height: 100vh;
-  width: auto;
+.right {
+  display: flex;
+  flex-direction: column;
 }
 
-.bottom-left {
-  position: absolute;
-  color: white;
-  font-size: 64px;
-  bottom: 8px;
-  background-color: black;
-  left: 16px;
+.first {
+  height: 40vh;
+}
+
+.second {
+  height: 30vh;
+}
+
+.thrid {
+  height: 30vh;
 }
