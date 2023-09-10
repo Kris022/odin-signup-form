@@ -26,13 +26,31 @@ main {
 .first {
   height: 33vh;
   display: flex;
-  justify-content: center;
+  margin-left: 5%;
   align-items: flex-end;
 }
 
 .second {
   height: 33vh;
   background-color: white;
+}
+
+.second h2 {
+  margin-left: 5%;
+}
+
+.form-main {
+  display: flex;
+  margin-left: 5%;
+}
+
+.form-divs {
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
 }
 
 .thrid {
